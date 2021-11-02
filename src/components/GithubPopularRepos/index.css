@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.repos-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+.heading {
+  font-family: Lobster;
+  color: #0f172a;
+}
+
+.filters-list {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.repos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-between;
+}
